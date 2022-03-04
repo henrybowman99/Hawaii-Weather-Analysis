@@ -1,6 +1,6 @@
 # Hawaii Temperature Analysis
 
-#Overview of Analysis
+# Overview of Analysis
 
 In this analysis, my overall goal was to summarize the weather on the island of Oahu. Using the sqlalchemy library in python, I accessed a sqlite database holding daily Oahu weather data covering the years 2010-2017. To get a baseline description for the weather, I ran two queries: The first query gathered all of the temperatures from all of the nine temperature stations on Oahu for days in the month of June. The second query did the same thing for days in the month of December.  I stored both of the queries in lists and then transformed each list to a pandas dataframe. Lastly, I observed statistics for the temperatures in both months by using the pandas describe function. By observing temperature data from two opposite sides of the calendar, I'm able to get a feel for the overall weather for the full year.
 
@@ -21,7 +21,7 @@ In this analysis, my overall goal was to summarize the weather on the island of 
 * The lowest temperature recorded in Oahu for the month of December (56) is eight degrees lower than the lowest temperature for the month of June (56)
 * Temperatures in Oahu for the month of December varied slighlty more (standard deviation of 3.75 degrees) than temperatures for the month of June (standard deviation of 3.26 degrees)
 
-#Summary
+# Summary
 
 From looking at the temperatures and temperature statistics for the months of June and December, it's clear that the temperature patterns in Oahu for the months of June and December are actually quite similar. Because the average, maximum and minimum temperatures are so close to each other in two months that are in opposite "seasons" of the year, I can be relatively certain that the weather is relatively steady (and warm) throughout the year. 
 
