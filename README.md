@@ -1,4 +1,4 @@
-# Hawaii Temperature Analysis
+# Hawaii Weather Analysis
 
 # Overview of Analysis
 
